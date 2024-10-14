@@ -7,9 +7,11 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>{{$title}}</title>
         @vite(['resources/css/app.css', 'resources/js/app.js'])
+        <script src="https://kit.fontawesome.com/75b12c4b2e.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <x-nav />
+        <div></div>
         <main>
             {{ $slot }}
         </main>
